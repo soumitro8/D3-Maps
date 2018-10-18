@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Revenues and grades for U.S. schools by state</title>
+		<link href="style.css" rel="stylesheet" type="text/css" >
+	</head>
+	<body>
+		<div class="container2">
+			<h1 style="text-align:center; font-family:avenir; font-size:35px;"> REVENUES AND GRADES FOR U.S. SCHOOLS BY STATE</h1>
+		</div>
+		<h3 style="text-align:center; font-family:avenir; font-weight:strong; font-size:20px">Soumitro Choudhury</h3>
+		<h3 style="text-align:center; font-family:avenir; font-weight:strong; font-size:20px">10/14/2018</h3>
+		<h3 style="text-align:center; font-family:avenir; font-weight:strong; font-size:20px">CSE 578 : Data Visualization</h3>
+		<div class="container">
+			<div id="map" style="float:left">
+			</div>
+			<div id="scatterplot" style="float:right"> 
+			</div>
+		</div> 
+		<div class="container1">
+			<h1 style="font-family:avenir;">The first visualization is a chloropleth map of the United States providing the overview. The area
+			marks on the map are filled with colors depending on the total revenue for grade schools. This map visualizes the total revenue
+			for grade schools by state in the year 2015. Hovering over a state displays the total revenue for the state and also highlights the 
+			dot corresponding to that state on the scatter plot.
+			<br><br>
+			The second visualization is a scatter plot providing the details view. It shows the the average 8th grade scores in Math for each
+			state in the year 2015. Hovering over a dot displays the name of the state and the average score.
+			<br><br>
+			In conclusion, these visualizations make clear that a larger revenue does not necessarily result in better quality of education
+			and higher scores.</h1>
+		</div> 
+
+		<script type="text/javascript" src="http://d3js.org/d3.v3.js"></script>
+		
+		<script src="map.js"></script>
+		<script src="scatterplot.js"></script>
+	</body>
+</html>

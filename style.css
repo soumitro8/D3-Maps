@@ -1,0 +1,90 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#map {
+	display: inline-block;
+	float: left;
+}
+
+#scatterplot {
+	display: inline-block;
+	float: right;
+}
+
+.dot:hover {
+	fill: black;
+}
+
+.dot {
+	fill: #2e86de;
+	stroke: #000;
+}
+
+/* On mouse hover, lighten state color */
+path:hover {
+	fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {   
+ 	position: absolute;           
+	text-align: center;
+	font-family: avenir;
+	width: 75px;                  
+	height: 65px;                 
+	padding: 2px;             
+	font: 12px sans-serif;        
+	background: white;
+	border: 1px solid #6F257F;
+	opacity: 0;
+	pointer-events: none;         
+}
+        
+.container {
+	width: 1200px;
+	height: 500px;
+	margin: 25px auto 25px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #ecf0f1;
+	box-shadow: 0 0 20px #ccc;
+}
+
+.container1 {
+	width: 1200px;
+	height: 300px;
+	margin: 25px auto 25px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #fdcb6e;
+	box-shadow: 0 0 20px #ccc;
+}
+
+.container2 {
+	width: 1200px;
+	height: 100px;
+	margin: 25px auto 25px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #e17055;
+	box-shadow: 0 0 20px #ccc;
+}
+/* Legend Font Style */
+body {
+	font: 11px sans-serif;
+	background-color: white;
+}
+        
+/* Legend Position Style */
+.legend {
+	position:absolute;
+	left:480px;
+	top:600px;
+}
+
+@font-face 
+		{
+			font-family: avenir;
+			src: url(AvenirLTStd-Book.otf);
+		}
